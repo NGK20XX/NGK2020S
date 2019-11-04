@@ -67,3 +67,19 @@ h2 a:active {
   color: #000;
   text-decoration: underline;
 }
+footer {
+  font-size: 40px;
+  text-align: center;
+  margin: 2em;
+}
+footer {
+  font-size: 40px;
+  text-align: center;
+  margin: 2em;
+}
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active {
+  text-decoration: none;
+}
