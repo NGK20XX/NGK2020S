@@ -1,0 +1,21 @@
+{
+  "name": "ngk2020s",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "format": "prettier --write '*.css' '*.html'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NGK20XX/NGK2020S.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/NGK20XX/NGK2020S/issues"
+  },
+  "homepage": "https://github.com/NGK20XX/NGK2020S#readme",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
