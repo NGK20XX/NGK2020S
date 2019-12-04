@@ -1,0 +1,74 @@
+.sponsors,
+.sponsors td,
+.sponsors th {
+  border-collapse: collapse;
+}
+.sponsors th,
+.sponsors td {
+  border-bottom: 1px solid #ccc;
+}
+.sponsors th:nth-child(2n),
+.sponsors td:nth-child(2n) {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+.sponsors tr:first-child {
+  vertical-align: bottom;
+}
+
+.sponsors th:first-child {
+  width: 8%;
+}
+
+.sponsors td {
+  width: 31%;
+  vertical-align: top;
+  padding: 0.5em;
+}
+.sponsors th {
+  font-size: 150%;
+  white-space: nowrap;
+  padding: 0.5em;
+}
+
+.sponsors .im-trophy {
+  text-shadow: #888 1px 1px;
+  display: block;
+}
+
+.sponsors .blonze-sponsor .im-trophy {
+  color: #cd7f32;
+  font-size: 60px;
+}
+
+.sponsors .silver-sponsor .im-trophy {
+  color: #c0c0c0;
+  font-size: 70px;
+}
+
+.sponsors .gold-sponsor .im-trophy {
+  color: #ffd700;
+  font-size: 80px;
+}
+
+.sponsors small {
+  color: gray;
+}
+
+.amount-of-money {
+  text-align: center;
+  text-shadow: #888 1px 1px;
+  font-size: 140%;
+}
+
+.blonze-sponsor.amount-of-money {
+  color: #cd7f32;
+}
+
+.silver-sponsor.amount-of-money {
+  color: #c0c0c0;
+}
+
+.gold-sponsor.amount-of-money {
+  color: #ffd700;
+}
