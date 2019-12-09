@@ -13,6 +13,12 @@ section {
   margin: 2em 0;
   box-shadow: #ddd 0px 2px;
 }
+section section {
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
 h1 {
   font-family: "Big Shoulders Display", cursive;
   font-size: 120px;
@@ -71,6 +77,9 @@ h2 a:active {
   color: #000;
   text-decoration: underline;
 }
+h3 {
+  font-size: 25px;
+}
 footer {
   font-size: 40px;
   text-align: center;
@@ -86,4 +95,16 @@ footer a:visited,
 footer a:hover,
 footer a:active {
   text-decoration: none;
+}
+
+.blonze-sponsor .im-trophy {
+  color: #cd7f32;
+}
+
+.silver-sponsor .im-trophy {
+  color: #c0c0c0;
+}
+
+.gold-sponsor .im-trophy {
+  color: #ffd700;
 }

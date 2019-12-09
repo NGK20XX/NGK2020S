@@ -12,3 +12,8 @@ npm install
 ```
 npm run format
 ```
+
+## Test on Server
+```
+npm run serve
+```
