@@ -108,3 +108,12 @@ footer a:active {
 .gold-sponsor .im-trophy {
   color: #ffd700;
 }
+
+.gold-sponsor > a {
+  display: inline-block;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+  width: 400px;
+  max-height: 400px;
+}
