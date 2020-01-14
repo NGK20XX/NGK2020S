@@ -117,3 +117,12 @@ footer a:active {
   width: 400px;
   max-height: 400px;
 }
+
+.silver-sponsor > a {
+  display: inline-block;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+  width: 200px;
+  max-height: 200px;
+}
